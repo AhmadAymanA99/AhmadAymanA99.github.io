@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkyespays_task=self.webpackChunkyespays_task||[]).push([[895],{3895:function(s,e,a){a(2791);e.Z=a.p+"static/media/logo.af71542056e7b1eef974469cfd9ea4cc.svg"}}]);
+//# sourceMappingURL=895.67536e2e.chunk.js.map

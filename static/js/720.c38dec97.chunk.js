@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkyespays_task=self.webpackChunkyespays_task||[]).push([[720],{3720:function(e,n,u){u.r(n),u.d(n,{default:function(){return l}});var r=u(5671),t=u(3144),s=u(136),a=u(7277),c=u(2791),i=u(184),l=function(e){(0,s.Z)(u,e);var n=(0,a.Z)(u);function u(){return(0,r.Z)(this,u),n.apply(this,arguments)}return(0,t.Z)(u,[{key:"render",value:function(){return(0,i.jsx)("div",{className:"breadcrumb",children:"Home / All rugs / Kilim & tulu / Name of product"})}}]),u}(c.Component)}}]);
+//# sourceMappingURL=720.c38dec97.chunk.js.map
