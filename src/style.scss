@@ -1,0 +1,346 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: "Poppins";
+    src: url(utils/fonts/Poppins-Regular.ttf);
+}
+
+$primary-color: #b93c3c;
+$secondary-color: #818181;
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topNav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-inline: 80px;
+}
+
+.nav {
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 10px;
+}
+
+.navItem {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.rightSection {
+    position: absolute;
+    right: 80px;
+    display: inline-flex;
+    gap: 12px;
+}
+
+.navIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #f5f5f5;
+    border-radius: 100px;
+}
+
+.cartCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    background-color: $primary-color;
+    border-radius: 100px;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: -5px;
+    right: 47px;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    height: 82px;
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    padding-inline: 106px;
+}
+
+.ProductDetails {
+    display: flex;
+    padding: 80px 160px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.imagesSection {
+    display: flex;
+    width: 492px;
+    height: 536px;
+    flex-shrink: 0;
+}
+
+.mainPic {
+    width: 368px;
+    height: 536px;
+    flex-shrink: 0;
+    border-radius: 16.475px;
+    border: 0.824px solid #d9d9d9;
+}
+
+.discount {
+    position: absolute;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99.705px;
+    height: 41.933px;
+    flex-shrink: 0;
+    background-color: $primary-color;
+    color: white;
+}
+
+.leftPics {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 121px;
+    flex-shrink: 0;
+    border-radius: 14.3px;
+    border: 0.894px solid #d9d9d9;
+}
+
+.details {
+    width: 453px;
+    height: 540px;
+    flex-shrink: 0;
+}
+
+.title {
+    float: left;
+    text-align: start;
+}
+
+.btn360 {
+    float: right;
+    text-align: end;
+}
+
+.priceSection {
+    margin-top: 70px;
+    display: flex;
+}
+
+.priceTag {
+    color: $primary-color;
+    font-size: 23.02px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 23.02px */
+    font-variant: small-caps;
+}
+
+.priceTag2 {
+    margin-left: 10px;
+    align-self: center;
+    color: $secondary-color;
+    font-size: 19.183px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 19.183px */
+    font-variant: small-caps;
+    text-decoration: line-through;
+}
+
+.desc {
+    color: $secondary-color;
+    text-align: start;
+    padding-right: 40px;
+}
+
+.primary {
+    color: $primary-color;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.counterBox {
+    display: flex;
+    width: 153px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 14.3px;
+    border: 0.894px solid #d9d9d9;
+    margin-inline: 15px;
+    padding-inline: 15px;
+    font-size: 28px;
+}
+
+.productsList {
+    padding: 40px 160px;
+    text-align: start;
+}
+
+.productsListSlider {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 19.375px;
+    overflow-x: auto;
+    padding-bottom: 40px;
+}
+
+.listItem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 257.688px;
+    height: 465px;
+    flex-shrink: 0;
+    border-radius: 15.5px;
+    border: 0.969px solid #d9d9d9;
+}
+
+.descCard {
+    color: $secondary-color;
+    margin: 0;
+    width: 220.875px;
+    height: 41.656px;
+    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15.5px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.heart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54.25px;
+    height: 39.719px;
+    flex-shrink: 0;
+    border-radius: 5.813px;
+    background: #f5f5f5;
+    margin-right: 1rem;
+}
+
+.sm360 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5px;
+    right: 10px;
+    width: 54.25px;
+    height: 54.25px;
+    flex-shrink: 0;
+    border-radius: 96.875px;
+    background: #f5f5f5;
+}
+
+.Cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 288px;
+    max-width: 600px;
+    min-height: 60px;
+    border-radius: 21.218px;
+    background: #fff;
+    box-shadow: 0px 4px 36px 0px rgba(128, 128, 128, 0.25);
+}
+
+.cartList {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+
+.title2 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.secondary {
+    color: $secondary-color;
+    font-size: 11px;
+    margin: 0;
+}
+
+.priceTagSm {
+    color: $primary-color;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 5px;
+    font-variant: small-caps;
+}
+
+.divider {
+    width: -webkit-fill-available;
+    height: 1px;
+    background: #eaeaea;
+}
