@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yespays_task/static/css/main.c42ca3da.css",
-    "main.js": "/yespays_task/static/js/main.36513ce3.js",
+    "main.js": "/yespays_task/static/js/main.77659919.js",
     "static/js/314.9a89346d.chunk.js": "/yespays_task/static/js/314.9a89346d.chunk.js",
     "static/js/415.6f9f9adf.chunk.js": "/yespays_task/static/js/415.6f9f9adf.chunk.js",
     "static/js/452.ce34077b.chunk.js": "/yespays_task/static/js/452.ce34077b.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/Rectangle3.png": "/yespays_task/static/media/Rectangle3.c936976aef0811692eb8.png",
     "index.html": "/yespays_task/index.html",
     "main.c42ca3da.css.map": "/yespays_task/static/css/main.c42ca3da.css.map",
-    "main.36513ce3.js.map": "/yespays_task/static/js/main.36513ce3.js.map",
+    "main.77659919.js.map": "/yespays_task/static/js/main.77659919.js.map",
     "314.9a89346d.chunk.js.map": "/yespays_task/static/js/314.9a89346d.chunk.js.map",
     "415.6f9f9adf.chunk.js.map": "/yespays_task/static/js/415.6f9f9adf.chunk.js.map",
     "452.ce34077b.chunk.js.map": "/yespays_task/static/js/452.ce34077b.chunk.js.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.c42ca3da.css",
-    "static/js/main.36513ce3.js"
+    "static/js/main.77659919.js"
   ]
 }
